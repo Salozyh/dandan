@@ -1,0 +1,24 @@
+# Site settings ...
+uri: dandan.com
+url: https://dandan.red
+name: TURKY EGG
+title: DANDAN'S SECRET
+author: HANDSOME $ALO
+baseurl: ""
+keywords: ""
+description: "想和你在海边</br>一坐一夜</br>一日千年"
+
+# Build settings ...
+sass:
+  style: compressed
+markdown: kramdown
+encoding: "utf-8"
+paginate: 5
+permalink: /post/:title
+paginate_path: "/page/:num/"
+
+# Plugins ...
+plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jemoji
